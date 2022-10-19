@@ -1,0 +1,12 @@
+.coming-soon-box-fixed {
+    position: fixed;
+    background-color: gray;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 50%;
+    padding: 20px;
+    border: solid 5px black;
+    font-family: 'Courier New', Courier, monospace;
+}
