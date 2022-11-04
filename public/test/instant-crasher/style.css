@@ -1,0 +1,26 @@
+.bsf {
+    position: absolute;
+    display: inline;
+    left: 0;
+    top: 0;
+    z-index: -10;
+    color:brown;
+}
+.bk {
+    background-image: url(bk2.png);
+    sclae: 6;
+}
+.bsr {
+    position: absolute;
+    display: inline;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    color:brown;
+}
+.bks {
+    left: 0;
+    top: 0;
+    dislay: inline;
+    z-index: 50;
+}
