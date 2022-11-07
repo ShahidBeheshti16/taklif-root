@@ -42,21 +42,34 @@ tr:nth-child(even) {
     position: relative;
     display: block;
     z-index: 0;
-    background: linear-gradient(to left, #c22f2f , #530000)
+    background: linear-gradient(to left, #2193b0 , #6dd5ed)
   }
   .content {
     align-items: center;
-    right: 15%;
+    right: 30%;
+    top: 15%;
     padding: 5px;
     position: fixed;
     z-index: 5;
     justify-content: center;
+    font-family: IranSans, sans-serif;
   }
+  a:visited, a:link, a:active {
+    text-decoration: none;
+    color: #ffbb00;
+    transition: 2s;
+    opacity: 0.8;
+}
+ a:hover {
+  color:#ff0000;
+  opacity: 1;
+
+ }
     </style>
   </head>
   <body>
     <div class="content">
-    <p class="header">مخفف اصطلاحات کامپیوتری 21 آبان 1401</p>
+    <!--<p class="header">مخفف اصطلاحات کامپیوتری 21 آبان 1401</p>-->
     
       <table>
         <tr>
@@ -122,11 +135,11 @@ tr:nth-child(even) {
       window.onload = function() {
       Particles.init({
       selector: '.bsr',
-      maxParticles: 350,
+      maxParticles: 200,
       sizeVariations: 3,
       minDistance: 80,
       connectParticles: true,
-      speed: 2,
+      speed: 1,
       });
       };
   </script>
