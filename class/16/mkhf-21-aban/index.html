@@ -14,16 +14,16 @@
       font-family: "IranSans";
       src: url(https://taklif.sampadsari.tk/fonts/IranSans.woff);
       }
-      body {
-        display: inline-block;
-      }
       table {
         text-align: center;
         font-family: IranSans, sans-serif;
         border-collapse: collapse;
         width: 100%;
       }
-
+body {
+  margin: 0;
+  
+}
 td, th {
   border: 1px solid #dddddd;
   text-align: center;
@@ -36,16 +36,28 @@ tr:nth-child(even) {
       .header {
   text-align: center;
   font-family: IranSans, sans-serif;
-  font-size: 500%;
+  font-size: 390%;
       }
   .bsr {
-    z-index: -10;
+    position: relative;
+    display: block;
+    z-index: 0;
+    background: linear-gradient(to left, #c22f2f , #530000)
+  }
+  .content {
+    align-items: center;
+    right: 15%;
+    padding: 5px;
+    position: fixed;
+    z-index: 5;
+    justify-content: center;
   }
     </style>
   </head>
   <body>
-    <canvas class="bsr"></canvas>
+    <div class="content">
     <p class="header">مخفف اصطلاحات کامپیوتری 21 آبان 1401</p>
+    
       <table>
         <tr>
           <th>مخفف</th>
@@ -102,11 +114,10 @@ tr:nth-child(even) {
           <td>WireLess Transport Layer Security</td>
           <td>امنیت لایه حمل و نقل بی سیم</td>
         </tr>
-          
       </table>
-
     <a href="http://fanavarane90.blogfa.com/post/13"><p class="footer">منبع</p></a>
     <p class="footer">Made by <a href="https://github.com/MohsenEMX">MohsenEMX</a> - 2022</p>
+  </div>
     <script>
       window.onload = function() {
       Particles.init({
@@ -119,6 +130,6 @@ tr:nth-child(even) {
       });
       };
   </script>
-  
+  <canvas class="bsr"></canvas>
   </body>
 </html>
