@@ -1,6 +1,10 @@
 @font-face {
     font-family: 'Pedaret';
-    /*url(font2.woff);*/
+    src: url(font2.woff);
+}
+@font-face {
+    font-family: 'IranSans';
+    src: url(..\fonts\IranSans.woff);
 }
 
 .coming-soon-box-fixed {

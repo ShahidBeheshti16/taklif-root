@@ -8,51 +8,43 @@
   <meta name="author" content="MohsenEMX">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content='https://taklif.sampadsari.tk/images/og.png' property='og:image'>
+    <link rel="stylesheet" href="https://taklif.sampadsari.tk/rsf/main.css">
+    <script src="particles.js"></script>
     <style>
             @font-face {
       font-family: "IranSans";
       src: url(https://taklif.sampadsari.tk/fonts/IranSans.woff);
       }
       
-      
       table {
         text-align: center;
-  font-family: IranSans, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+        font-family: IranSans, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
 
 td, th {
   border: 1px solid #dddddd;
-  text-align: left;
+  text-align: center;
   padding: 8px;
 }
 
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-      
-      .footer {
-      
-      }
-      
-      .main{
-      
-      }
       .header {
   text-align: center;
   font-family: IranSans, sans-serif;
-  font-size: 50px;
-  color: #000;
-  text-align: center;
-}
-
+  font-size: 500%;
+      }
+  .bsr {
+    z-index: -10;
+  }
     </style>
   </head>
   <body>
     <p class="header">مخفف اصطلاحات کامپیوتری 21 آبان 1401</p>
     <canvas class="bsr"></canvas>
-    <div class="main">
       <table>
         <tr>
           <th>مخفف</th>
@@ -111,8 +103,20 @@ tr:nth-child(even) {
         </tr>
           
       </table>
-    </div>
+
     <a href="http://fanavarane90.blogfa.com/post/13"><p class="footer">منبع</p></a>
     <p class="footer">Made by <a href="https://github.com/MohsenEMX">MohsenEMX</a> - 2022</p>
+    <script>
+      window.onload = function() {
+      Particles.init({
+      selector: '.bsr',
+      maxParticles: 350,
+      sizeVariations: 3,
+      minDistance: 80,
+      connectParticles: true,
+      speed: 2,
+      });
+      };
+  </script>
   </body>
 </html>
