@@ -1,0 +1,59 @@
+<table>
+        <tr>
+          <th>مخفف</th>
+          <th>کامل</th>
+          <th>فارسی</th>
+        </tr>
+        <tr>
+          <td>HYIP</td>
+          <td>High Yield Investment Programs</td>
+          <td>برنامه های سرمایه گذاری با بازده بالا </td>
+        </tr>
+        <tr>
+          <td>WAN</td>
+          <td>Wide Area Network</td>
+          <td>شبکه گسترده</td>
+        </tr>
+        <tr>
+          <td>LAN</td>
+          <td> Local Area Network</td>
+          <td>شبکه محلی </td>
+        </tr>
+          <tr>
+            <td>VLAN</td>
+            <td>Virtual Local Area Network </td>
+            <td>شبکه محلی مجازی </td>
+        </tr>
+            <tr>
+              <td>WLAN</td>
+              <td>Wireless Local Area Network</td>
+              <td>شبکه محلی بی سیم</td>
+        </tr>
+        <tr>
+          <td>MAN</td>
+          <td> Metropolitan Area Network</td>
+          <td>شبکه متروپولیتن</td>
+        </tr>
+        <tr>
+          <td>WAE</td>
+          <td>Wireless Application Environment</td>
+          <td>محیط کاربردی بی سیم </td>
+        </tr>
+        <tr>
+          <td>WSP</td>
+          <td>Wireless Session Protocol</td>
+          <td>پروتکل جلسه بی سیم</td>
+        </tr>
+        <tr>
+          <td>WTP</td>
+          <td>Wireless Transaction Protocol</td>
+          <td>پروتکل تراکنش بی سیم</td>
+        </tr>
+        <tr>
+          <td>WTLS</td>
+          <td>WireLess Transport Layer Security</td>
+          <td>امنیت لایه حمل و نقل بی سیم</td>
+        </tr>
+      </table>
+
+      background: linear-gradient(to left, #2193b0 , #6dd5ed);
