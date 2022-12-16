@@ -20,6 +20,8 @@
         <p>نکته: همه کلمات و حروف را بصورت حروف کوچک بنویسید. مثال</p>
         <p>CPU</p>
         <p>central processing unit</p>
+        <p>زمان باقیمانده تا پایان مدت آزمون</p>
+        <p id="timert"></p>
     </div>
     <div class="exam">
         <p>CBT:</p>
@@ -53,6 +55,8 @@
         <input type="text" id="q10">
         <hr />
         <div class="sub">
+        <p>نام و نام خانوادگی</p>
+        <input type="text" id="sname">
         <p>هشدار: بعد تایید قادر به عوض کردن/ دادن دوباره امتحان نخواهید بود</p>
         <button onclick="submit()">تایید</button>
         </div>
@@ -67,6 +71,12 @@
             <textarea id="fbase" readonly></textarea>
         </div>
     </div>
+</div>
+<div class="expired" id="expired">
+    <p>متاسفانه مدت آزمون به اتمام رسیده است</p>
+</div>
+<div class="already" id="already">
+    <p>شما قبلا آزمون داده اید</p>
 </div>
 </body>
 </html>
