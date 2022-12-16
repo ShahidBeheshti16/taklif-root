@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Iran Sans';
+    src: url('ISF.woff');
+}
+body {
+    background-image: url("bk.jpg");
+    text-align: center;
+    display: block;
+}
+.mainb {
+    display: block;
+}
+.mainc {
+    display: none;
+    font-family: 'Iran Sans';
+}
+.fr {
+    font-family: 'Iran Sans';
+    color: #fff;
+    font-size: 50px;
+}
+.tip {
+    text-align: center;
+    width: 500px;
+    height: 135px;
+    background-color: #fff;
+    font-family: 'Iran Sans';
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+.exam {
+    font-family: 'Iran Sans', sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    color: #fff;
+}
+.exam input {
+    border: 2px solid red;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s;
+    color: #000;
+    font-size: 15px;
+}
+input:focus {
+    border: 4px solid blue;
+    padding: 9px;
+    font-size: 20px;
+}
+hr {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.sub {
+    color: #fff;
+}
+button {
+    background: #fff;
+    border-radius: 10px;
+    color: 000;
+    padding: 10px;
+    font-family: 'Iran Sans';
+    font-size: 30px;
+    transition: 0.6s;
+}
+button:hover {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 14px;
+    padding: 19px;
+}
+.fbox {
+    background: rgba(255, 255, 255, 0.8);
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.cont {
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+}
+.cont #ftitle {
+    font-size: 35px;
+}
+textarea {
+    border-radius: 3px;
+ }
