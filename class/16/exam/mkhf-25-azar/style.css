@@ -1,3 +1,6 @@
+/* Code written and maintained by MohsenEMX */
+
+
 @font-face {
     font-family: 'Iran Sans';
     src: url('ISF.woff');
@@ -107,3 +110,28 @@ textarea {
     margin: 0 auto;
     color: white;
  }
+ #credit {
+    color: red;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.4s;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+#credit:hover {
+    color: #fff;
+    text-decoration: none;
+    width: 800px;
+    background: rgba(0, 0, 0, 0.9);
+}
+#credit a {
+    color: yellow;
+    text-decoration: none;
+    transition: 0.4s;
+}
+#credit a:hover {
+    color: red;
+}

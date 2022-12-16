@@ -1,3 +1,6 @@
+
+// Code written and maintained by MohsenEMX
+
 var xr = document.cookie;
 let cresponse = false;
 var ftext_f = false;
@@ -21,6 +24,7 @@ var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456
 
 
 function submit() {
+    let drf = new Date();
     let a1 = document.getElementById('q1').value;
     let a2 = document.getElementById('q2').value;
     let a3 = document.getElementById('q3').value;
@@ -67,7 +71,7 @@ function submit() {
         nomre += 2;
     }
     console.log('Nomre = ' + nomre);
-    let ftext = `{usernomre:${nomre},a1=${a1},a2=${a2},a3=${a3},a4=${a4},a5=${a5},a6=${a6},a7=${a7},a8=${a8},a9=${a9},a10=${a10},cookie-response=${cresponse},name=${name}}`
+    let ftext = `{usernomre:${nomre},a1=${a1},a2=${a2},a3=${a3},a4=${a4},a5=${a5},a6=${a6},a7=${a7},a8=${a8},a9=${a9},a10=${a10},cookie-response=${cresponse},name=${name},finished=${drf}}`
     ftext_f = Base64.encode(ftext);
     document.cookie = `nomre=${nomre}`;
     resualts();
