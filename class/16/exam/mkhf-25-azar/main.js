@@ -95,16 +95,23 @@ var x = setInterval(function() {
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    var dayss = Math.floor(distances / (1000 * 60 * 60 * 24));
+    var hourss = Math.floor((distances % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutess = Math.floor((distances % (1000 * 60 * 60)) / (1000 * 60));
+    var secondss = Math.floor((distances % (1000 * 60)) / 1000);
     document.getElementById('timert').innerHTML = hours + "h" + ' ' + minutes + 'm' + ' ' + seconds + 's';
+    document.getElementById('yess').innerHTML = hourss + "h" + ' ' + minutess + 'm' + ' ' + secondss + 's';
     if (distance < 0) {
         clearInterval(x);
         expired();
       }
       if (distances > 0) {
-        clearInterval(x);
+        
         notyet();
       }
-}, 1000);
+    },1000);
+
 function expired() {
     document.getElementById('mainb').style.display = 'none';
     document.getElementById('expired').style.display = 'block';
