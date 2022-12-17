@@ -79,12 +79,12 @@ function submit() {
 function resualts() {
     document.getElementById('mainb').style.display= 'none';
     document.getElementById('mainc').style.display= 'block';
-    document.getElementById('fnomre').innerHTML = 'نمره:' + ' ' + nomre;
     document.getElementById('fbase').innerHTML = ftext_f;
+    document.cookie = `lastusedcode=${ftext_f}`;
 }
 
-var countDownDate = new Date("Dec 17, 2022 10:30:10").getTime();
-var countStart = new Date("Dec 17, 2022 10:15:10").getTime();
+var countDownDate = new Date("Dec 18, 2022 9:45:10").getTime();
+var countStart = new Date("Dec 18, 2022 9:30:10").getTime();
 
 var x = setInterval(function() {
     var now = new Date().getTime();
@@ -123,4 +123,8 @@ function notyet() {
 function already() {
     document.getElementById('mainb').style.display = 'none';
     document.getElementById('already').style.display = 'block';
+}
+function copyftext() {
+    navigator.clipboard.writeText(ftext_f);
+    alert('کد شما کپی شد');
 }

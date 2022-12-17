@@ -1,0 +1,151 @@
+/* Code written and maintained by MohsenEMX */
+
+
+@font-face {
+    font-family: 'Iran Sans';
+    src: url('ISF.woff');
+}
+body {
+    background-image: url("bk.jpg");
+    text-align: center;
+    display: block;
+}
+.mainb {
+    display: none;
+}
+.mainc {
+    display: none;
+    font-family: 'Iran Sans';
+}
+.fr {
+    font-family: 'Iran Sans';
+    color: #fff;
+    font-size: 50px;
+}
+.tip {
+    text-align: center;
+    width: 500px;
+    height: 90px;
+    background-color: #fff;
+    font-family: 'Iran Sans';
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+.exam {
+    font-family: 'Iran Sans', sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    color: #fff;
+}
+.exam input {
+    border: 3px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s;
+    color: #000;
+    font-size: 15px;
+}
+input:focus {
+    border: 6px solid red;
+    padding: 9px;
+    font-size: 20px;
+}
+hr {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.sub {
+    color: #fff;
+}
+button {
+    background: #fff;
+    border-radius: 10px;
+    color: 000;
+    padding: 10px;
+    font-family: 'Iran Sans';
+    font-size: 30px;
+    transition: 0.6s;
+}
+button:hover {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 14px;
+    padding: 19px;
+}
+.fbox {
+    background: rgba(255, 255, 255, 0.8);
+    width: 500px;
+    height: 450px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.cont {
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+}
+.cont #ftitle {
+    font-size: 35px;
+}
+textarea {
+    border-radius: 3px;
+ }
+ .expired {
+    display: none;
+    font-family: 'Iran Sans';
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+ }
+ .notyet {
+    display: none;
+    font-family: 'Iran Sans';
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+ }
+ .already {
+    display: none;
+    font-family: 'Iran Sans';
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+ }
+ #credit {
+    color: red;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.4s;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+#credit:hover {
+    color: #fff;
+    text-decoration: none;
+    width: 800px;
+    background: rgba(0, 0, 0, 0.9);
+}
+#credit a {
+    color: yellow;
+    text-decoration: none;
+    transition: 0.4s;
+}
+#credit a:hover {
+    color: red;
+}
+#fcopyf {
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'Iran Sans';
+
+}

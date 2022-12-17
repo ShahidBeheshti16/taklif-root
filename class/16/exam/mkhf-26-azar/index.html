@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>امتحان مخفف 26 آذر</title>
+    <link rel="shortcut icon" href="sampad.ico" type="image/x-icon">
+
+    <meta name="description" content="امتحان مخفف های 26 آذر - آنلاین">
+    <meta name="keywords" content="مخفف,اصطلاح,کامپیوتر">
+    <meta name="author" content="MohsenEMX">
+    <meta name="title" content="امتحان مخفف 26 آذر">
+    <meta content='og.png' property='og:image'>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+<body id="bodys">
+    <div class="mainb" id="mainb">
+    <p class="fr">امتحان مخفف 26 آذر</p>
+    <div class="tip">
+        <p>زمان باقیمانده تا پایان مدت آزمون</p>
+        <p id="timert"></p>
+    </div>
+    <div class="exam">
+        <p>UTP:</p>
+        <input type="text" id="q1">
+        <hr />
+        <p>STP:</p>
+        <input type="text" id="q2">
+        <hr />
+        <p>ARP:</p>
+        <input type="text" id="q3">
+        <hr />
+        <p>RARP:</p>
+        <input type="text" id="q4">
+        <hr />
+        <p>VoIP:</p>
+        <input type="text" id="q5">
+        <hr />
+        <p>UDP:</p>
+        <input type="text" id="q6">
+        <hr />
+        <p>IP:</p>
+        <input type="text" id="q7">
+        <hr />
+        <p>IPX:</p>
+        <input type="text" id="q8">
+        <hr />
+        <p>NetBIOS:</p>
+        <input type="text" id="q9">
+        <hr />
+        <p>NetBEUI:</p>
+        <input type="text" id="q10">
+        <hr />
+        <div class="sub">
+        <p>نام و نام خانوادگی</p>
+        <input type="text" id="sname">
+        <p>هشدار: بعد تایید قادر به عوض کردن/ دادن دوباره امتحان نخواهید بود</p>
+        <button onclick="submit()">تایید</button>
+        <p>
+
+            
+        </p>
+        <p id="credit">Made by <a href="https://github.com/MohsenEMX">MohsenEMX</a></p>
+        </div>
+    </div>
+</div>
+<div id="mainc" class="mainc">
+    <div class="fbox">
+        <div class="cont">
+            <p id="ftitle">نتایج نهایی شما</p>
+            <p>کد شما:</p>
+            <textarea id="fbase" readonly></textarea>
+            <p>
+
+            
+            </p>
+            <button onclick="copyftext()" id="fcopyf">کپی کردن</button>
+        </div>
+    </div>
+</div>
+<div class="expired" id="expired">
+    <p>متاسفانه مدت آزمون به اتمام رسیده است</p>
+</div>
+<div class="notyet" id="notyet">
+    <p>آزمون هنوز شروع نشده است</p>
+    <p>مانده تا شروع: </p>
+    <p id="yess"></p>
+</div>
+<div class="already" id="already">
+    <p>شما قبلا آزمون داده اید</p>
+</div>
+</body>
+</html>
