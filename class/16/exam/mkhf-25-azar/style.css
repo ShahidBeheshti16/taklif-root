@@ -102,6 +102,14 @@ textarea {
     margin: 0 auto;
     color: white;
  }
+ .notyet {
+    display: none;
+    font-family: 'Iran Sans';
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+ }
  .already {
     display: none;
     font-family: 'Iran Sans';

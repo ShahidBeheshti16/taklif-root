@@ -83,10 +83,14 @@ function resualts() {
     document.getElementById('fbase').innerHTML = ftext_f;
 }
 
-var countDownDate = new Date("Dec 17, 2022 9:45:10").getTime();
+var countDownDate = new Date("Dec 17, 2022 10:30:10").getTime();
+var countStart = new Date("Dec 17, 2022 10:15:10").getTime();
+
 var x = setInterval(function() {
     var now = new Date().getTime();
     var distance = countDownDate - now;
+    var distances = countStart - now;
+    console.log(distances);
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -96,10 +100,18 @@ var x = setInterval(function() {
         clearInterval(x);
         expired();
       }
+      if (distances > 0) {
+        clearInterval(x);
+        notyet();
+      }
 }, 1000);
 function expired() {
     document.getElementById('mainb').style.display = 'none';
     document.getElementById('expired').style.display = 'block';
+}
+function notyet() {
+    document.getElementById('mainb').style.display = 'none';
+    document.getElementById('notyet').style.display = 'block';
 }
 function already() {
     document.getElementById('mainb').style.display = 'none';
