@@ -83,8 +83,8 @@ function resualts() {
     document.cookie = `lastusedcode=${ftext_f}`;
 }
 
-var countDownDate = new Date("Dec 18, 2022 9:45:10").getTime();
-var countStart = new Date("Dec 18, 2022 9:30:10").getTime();
+var countDownDate = new Date("Dec 18, 2022 16:15:10").getTime();
+var countStart = new Date("Dec 18, 2022 16:00:10").getTime();
 
 var x = setInterval(function() {
     var now = new Date().getTime();
